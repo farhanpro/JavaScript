@@ -1,7 +1,11 @@
-console.log(this);
+
 var name ="farhan";
 
 function sayNAme(){
     var name ="FARHAN";
-    console.log(this);
+    this.name = "Ak";
+    console.log(this.name);
+    console.log(name);
+
 }
+sayNAme();
